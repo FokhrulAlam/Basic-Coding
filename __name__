@@ -1,0 +1,30 @@
+We will call a module and use the __name__ variable. To simplify it, I am typing the code here:
+
+###The following is our module to be called and its name is "module_called". Copy it and create a new python file. 
+
+def add():
+    print("result 1 is ")
+
+def sub():
+    print("result 2 is ")
+
+def main():
+    add()
+    sub()
+if __name__=="__main__":
+    main()
+    
+### The following is our file where we will call the module_called module.
+
+from youtube_1 import add
+
+def fun1():
+    add()
+    print("from fun1")
+
+def fun2():
+    print("from fun2")
+def main():
+    fun1()
+    fun2()
+main()
