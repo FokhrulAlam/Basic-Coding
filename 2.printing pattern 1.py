@@ -1,3 +1,11 @@
+#Write a code to print below pattern
+#           #####
+#           #####
+#           #####
+#           #####
+
+
+
 i=1
 while i<=4:
     j=1
